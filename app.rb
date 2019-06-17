@@ -40,6 +40,9 @@ class App < Sinatra::Base
       "#{@number1 * @number2}"
     elsif @operation == "divide"
       "#{@number1 / @number2}"
+    else
+      "Please input one of the following operations: add, subtract, multiply, divide"
+    end
   end
 
 end
