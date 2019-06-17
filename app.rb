@@ -27,6 +27,4 @@ class App < Sinatra::Base
     "#{@word1}"
   end
 
-  end
-
 end
